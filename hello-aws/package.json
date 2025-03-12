@@ -5,6 +5,7 @@
   "scripts": {
     "start": "pm2 start node src/app.ts --name hello-aws --log ../logs/app.log",
     "stop": "pm2 stop hello-aws",
+    "build": "echo building",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
