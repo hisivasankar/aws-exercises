@@ -1,0 +1,17 @@
+{
+  "name": "hello-aws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start node src/app.ts --name hello-aws --log ../logs/app.log",
+    "stop": "pm2 stop hello-aws",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bun": "^1.2.5",
+    "pm2": "^5.4.3"
+  }
+}
